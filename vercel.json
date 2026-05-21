@@ -1,17 +1,8 @@
 {
   "version": 2,
   "routes": [
-    {
-      "src": "/api/fetch-club",
-      "dest": "/fetch-club.js"
-    },
-    {
-      "src": "/api/chat",
-      "dest": "/chat.js"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
+    { "src": "/api/chat", "dest": "/api/chat.js" },
+    { "src": "/api/fetch-club", "dest": "/api/fetch-club.js" },
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
